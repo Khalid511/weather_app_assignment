@@ -27,6 +27,8 @@ class _HomeState extends State<Home> {
             width: MediaQuery.of(context).size.width,
             color: Colors.lightGreenAccent,
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget> [
                 Padding(
                     padding: EdgeInsets.only(bottom: 10.0),

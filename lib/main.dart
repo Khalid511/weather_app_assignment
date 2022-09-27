@@ -65,6 +65,35 @@ class _HomeState extends State<Home> {
                 )
               ],
             ),
+          ),
+          Expanded(
+              child: Padding(
+                padding: EdgeInsets.all(20.0),
+                child: ListView(
+                  children: <Widget>[
+                    ListTile(
+                      leading: FaIcon(FontAwesomeIcons.thermometer),
+                      title: Text("Temperature"),
+                      trailing: Text("\u00B0"),
+                    ),
+                    ListTile(
+                      leading: FaIcon(FontAwesomeIcons.cloud),
+                      title: Text("Weather"),
+                      trailing: Text("Weather"),
+                    ),
+                    ListTile(
+                      leading: FaIcon(FontAwesomeIcons.sun),
+                      title: Text("Humidity"),
+                      trailing: Text("12"),
+                    ),
+                    ListTile(
+                      leading: FaIcon(FontAwesomeIcons.wind),
+                      title: Text("Wind Speed"),
+                      trailing: Text("13.5"),
+                    )
+                  ],
+                ),
+              ),
           )
         ],
       ),

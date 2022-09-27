@@ -23,7 +23,7 @@ class _HomeState extends State<Home> {
   var temp, description, currently, humidity, windSpeed;
 
   Future getWeather() async {
-      http.Response response = await http.get(Uri.parse("https://api.openweathermap.org/data/2.5/weather?q=Rajshahi&appid=382c950e1e150b70392101ded43e7739")); //api key
+      http.Response response = await http.get(Uri.parse("api key")); //api key
       var results = jsonDecode(response.body);
       setState(() {
         this.temp = (results['main']['temp']-273).toStringAsFixed(2);

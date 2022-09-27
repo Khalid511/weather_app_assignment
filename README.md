@@ -1,6 +1,8 @@
 # weather_app
 
 A new Flutter project.
+Help: <a href="https://www.youtube.com/watch?v=ToPdSd42UKA" target="_blank">video</a>
+
 
 ## Getting Started
 
